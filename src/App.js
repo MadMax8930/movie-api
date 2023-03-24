@@ -3,8 +3,7 @@ import './App.css';
 import MovieCard from "./MovieCard";
 import searchIcon from './search.svg';
 
-//3b491425
-const API_URL = 'http://www.omdbapi.com?apikey=3b491425';
+const API_URL = `http://www.omdbapi.com?apikey=${process.env.REACT_APP_API_KEY}`;
 
 const movie1 = {
   "Title": "Batman v Superman: Dawn of Justice",
@@ -16,13 +15,11 @@ const movie1 = {
 
 const App = () => {
 
-  // Asynchronous = takes time to fetch movies
-
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
     const data = await response.json();
     // console.log(data)   // object data
-    console.log(data.Search); //tableau d'objets
+    console.log(data.Search); // search array
   }
 
   useEffect(() => {
