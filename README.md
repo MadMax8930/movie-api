@@ -1,9 +1,7 @@
-React Movie App made with [Create React App]
-
-### Fetching data from a movie API [http://www.omdbapi.com]
+React simple movie app made with [Create React App] where I Fetch data from a movie API [https://www.omdbapi.com]
 
 Project could be viewed here:
 
-### [netlify]
+### [movie-search-api-123.netlify.app] ###
 
 
