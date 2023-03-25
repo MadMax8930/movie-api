@@ -19,7 +19,6 @@ body {
 
 .app {
   padding: 4rem;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,11 +42,11 @@ h1 {
 .search {
   width: 71%;
   margin: 4rem 0 2rem;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
-
+  
   padding: 1.5rem 1.75rem;
   border-radius: 3rem;
   background: #1f2123;
@@ -117,7 +116,7 @@ h1 {
 .movie {
   width: 310px;
   height: 460px;
-  margin: 1.5rem;
+  margin: 1rem;
 
   position: relative;
   border-radius: 12px;
@@ -180,7 +179,7 @@ h1 {
 
 .movie:hover div:nth-of-type(2) {
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.35;
 }
 
 .movie:hover div:nth-of-type(3) {
